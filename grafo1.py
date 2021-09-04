@@ -10,7 +10,6 @@ d = 100
 G = nx.DiGraph()
 
 G.add_edge("Ryu", "Ken", weight=1, capacity=3.0)
-"""
 G.add_edge("Ryu", "E.Honda")
 G.add_edge("Ryu", "Chun-Li")
 G.add_edge("Ryu", "Blanka")
@@ -137,13 +136,9 @@ G.add_edge("Dictator", "Fei-Long")
 G.add_edge("Dictator", "Sagat")
 
 
-"""
 
 
 nx.draw(G,arrows= True, arrowsize=15, with_labels=True, node_color='#00b4d9', edge_color='g' , node_size=800)
 plt.show()
 
-pos = nx.spring_layout(G)
-ax = plt.axes()
-nx.draw(G, pos=pos, ax=ax, with_labels=True)
-plt.show()
+
