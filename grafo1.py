@@ -4,7 +4,7 @@ from networkx.utils import arbitrary_element
 import matplotlib.pyplot as plt
 import pylab
 
-def dominating_set(G, start_with=None):
+def dominating_set(G, start_with=None): #obtenido de https://networkx.org/documentation/stable/_modules/networkx/algorithms/dominating.html#dominating_set
     r"""Finds a dominating set for the graph G.
 
     A *dominating set* for a graph with node set *V* is a subset *D* of
@@ -61,7 +61,7 @@ def dominating_set(G, start_with=None):
     return dominating_set
 
 
-def is_dominating_set(G, nbunch):
+def is_dominating_set(G, nbunch): #obtenido de https://networkx.org/documentation/stable/_modules/networkx/algorithms/dominating.html#dominating_set
     """Checks if `nbunch` is a dominating set for `G`.
 
     A *dominating set* for a graph with node set *V* is a subset *D* of
