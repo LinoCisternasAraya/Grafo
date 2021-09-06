@@ -238,8 +238,7 @@ def main():
     print(V)
     print(is_dominating_set(G, V))
 
-    nx.draw(G, arrows=True, arrowsize=20, with_labels=True, node_color='#00b4d9',
-            edge_color=('g', 'r', 'g', 'g', 'r', 'g', 'g', 'r'), node_size=2000)
+    nx.draw(G, arrows=True, arrowsize=20, with_labels=True, node_color='#00b4d9', edge_color=('g', 'r', 'g', 'g', 'r', 'g', 'g', 'r'), node_size=2000)
     plt.show()
     return
 
